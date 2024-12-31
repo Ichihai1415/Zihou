@@ -63,8 +63,9 @@
             ClientSize = new Size(450, 450);
             Controls.Add(L_Config);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Zihou";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
